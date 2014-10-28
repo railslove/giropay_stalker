@@ -1,7 +1,8 @@
 $:.unshift(File.expand_path("../", __FILE__))
 
 # Gems
-require "mechanize"
+require "nokogiri"
+require "httparty"
 
 # Local files
 require "giropay_stalker/scraper"
